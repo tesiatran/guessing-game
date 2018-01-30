@@ -14,7 +14,7 @@
   1. You should be in your `lfz` directory
   1. To check your directory type `pwd` then press <kbd>Enter </kbd>
     1. You should see something along the lines of:
-    1. `/Applications/MAMP/htdocs/lfz`
+    1. `~/Desktop/lfz`
     1. If you are not in the proper directory navigate to the `lfz` folder, if you're not sure how, contact an instructor
 1. Enter the following command into the terminal to clone the `Guess` repo
   1. `git clone https://github.com/[Your User Name]/guess.git`
