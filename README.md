@@ -44,7 +44,7 @@
 ## Coding Instructions
 
 ### Layout Scope
->- Create a `index.html` file
+- Create a `index.html` file
   - Make a `html` skeleton
   - Make sure to give your page an appropriate title
 - Add a set of `script` tags
@@ -59,7 +59,7 @@
   - This button will submit the user's guess to the game
 
 ### Functional Scope
->- In your script tag, make a variable, called `the_number`, set its value to `null`
+- In your script tag, make a variable, called `the_number`, set its value to `null`
 - Add a on load handler to the body
   - It should call a function named `pick_number` and assign its return value to the variable `the_number`
 - In your script tag, make a function called `pick_number`
@@ -105,20 +105,20 @@
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
 > ####Step 4.1 Open your guess Repo in the browser
-> - The link Should follow this format 'https://github.com/[your user name]/guess`
+> - The link Should follow this format `https://github.com/[your user name]/guess`
 
 > ####Step 4.2 Click Pull request tab to open the pull request list
 
-> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" width="350"/></a>
+<!-- > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" width="350"/></a> -->
 
 > ####Step 4.3 Click "New Pull request" button
 
-> <a href="https://github.com/Learning-Fuze/prototypes/blo b/assets/assets/example/2.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/2.jpg?raw=true" width="800" /></a>
+<!-- > <a href="https://github.com/Learning-Fuze/prototypes/blo b/assets/assets/example/2.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/2.jpg?raw=true" width="800" /></a> -->
 
 > ####Step 4.4 Comparing Changes
 > During this step there are a hand full of highlighted things that need to be taken into consideration.
 
-> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a>
+<!-- > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a> -->
 
 >##### NOTE: The image is for example puposes only, refer to the below text for what each value should actually be
 
@@ -135,7 +135,7 @@
 >    1. If the text says something other than "able to merge". <b>Contact an instructor</b>
 >    1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by 
 instructors at start)
->  1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button (#5 in the image above)
+>  1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button <!-- (#5 in the image above) -->
 
 > ---
 
@@ -149,4 +149,4 @@ name]</b> already pre-populated in the Title field
 >   1. Further into the cohort we will have students learn to review pull requests
 > 1. Click on "Create pull Request"
 
-> <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" width="800" /></a>
+<!-- > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" width="800" /></a> -->
