@@ -104,23 +104,23 @@
 
 ##### 4. See if your feature fits with what everyone else was working on (Pull Request)
 
-> ####Step 4.1 Open your guess Repo in the browser
+#### Step 4.1 Open your guess Repo in the browser
 > - The link Should follow this format `https://github.com/[your user name]/guess`
 
-> ####Step 4.2 Click Pull request tab to open the pull request list
+#### Step 4.2 Click Pull request tab to open the pull request list
 
 <!-- > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/1.jpg?raw=true" width="350"/></a> -->
 
-> ####Step 4.3 Click "New Pull request" button
+#### Step 4.3 Click "New Pull request" button
 
 <!-- > <a href="https://github.com/Learning-Fuze/prototypes/blo b/assets/assets/example/2.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/2.jpg?raw=true" width="800" /></a> -->
 
-> ####Step 4.4 Comparing Changes
+#### Step 4.4 Comparing Changes
 > During this step there are a hand full of highlighted things that need to be taken into consideration.
 
 <!-- > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/4.jpg?raw=true" width="800" /></a> -->
 
->##### NOTE: The image is for example puposes only, refer to the below text for what each value should actually be
+##### NOTE: The image is for example puposes only, refer to the below text for what each value should actually be
 
 >  1. `base fork: Learning-Fuze/guess`
 >  1. `base: C#_userName`
@@ -139,7 +139,7 @@ instructors at start)
 
 > ---
 
-> ####Step 4.4 Add details into the pull request
+#### Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
 >   1. If you set the commit message above you should get <b>v0.1 - [your first & last 
 name]</b> already pre-populated in the Title field
