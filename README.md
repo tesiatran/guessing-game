@@ -2,7 +2,7 @@
 
 ## Code Setup Details
 
-##### 1. Open PHPStorm
+##### 1. Open your code editor
 
 ##### 2. Fork This Repo - IMPORTANT Do this first
 
@@ -13,9 +13,9 @@
 1. In your terminal verify you are in the proper directory
   1. You should be in your `lfz` directory
   1. To check your directory type `pwd` then press <kbd>Enter </kbd>
-    1. You should see something along the lines of:
-    1. `~/Desktop/lfz`
-    1. If you are not in the proper directory navigate to the `lfz` folder, if you're not sure how, contact an instructor
+  1. You should see something along the lines of:
+  1. `~/Desktop/lfz`
+  1. If you are not in the proper directory navigate to the `lfz` folder, if you're not sure how, contact an instructor
 1. Enter the following command into the terminal to clone the `Guess` repo
   1. `git clone https://github.com/[Your User Name]/guess.git`
 
@@ -44,12 +44,12 @@
 ## Coding Instructions
 
 ### Layout Scope
-- Create a `index.html` file
-  - Make a `html` skeleton
+- Open the `index.html` file
   - Make sure to give your page an appropriate title
-- Add a set of `script` tags
-  - This will hold your javascript code
-- Add an input field
+- Note the script files that are included in the head
+  - jquery is loaded first so that your own JavaScript will have access to it
+  - The script tag with "src="main.js" connects the JavaScript you will write to the index.html page
+- Add an input field within the `body` tags
   - This input field will take the user's guess
   - Give it an id of `guess_input`
 - Add a div
@@ -59,28 +59,32 @@
   - This button will submit the user's guess to the game
 
 ### Functional Scope
-- In your script tag, make a variable, called `the_number`, set its value to `null`
-- Add a on load handler to the body
-  - It should call a function named `pick_number` and assign its return value to the variable `the_number`
-- In your script tag, make a function called `pick_number`
+- In the included main.js file, note the `$(document).ready()` expression at the top of the page.
+  - This is a jQuery function which calls a function of your choice once the HTML has loaded.
+  - It is currently configured to call a function named `initializeApp` which will in turn call a function you will create called `pick_number`
+- Now, declare a variable called `the_number`, and set its value to `null`
+- Next, declare a function called `pick_number`
     - It takes no parameters
     - It returns a number
-    - Inside:
-      - It will creates a variable, called `random_number`
-      - It will generate a random number between 1 and 10, and then assigns it to the `random_number` variable
-      - return `random_number`
-- Add a click handler to the button using jQuery.  
+    - Within the code block:
+      - It will declare a variable, called `random_number`
+      - It will generate a random number between 1 and 10, and then assign that random number to the `random_number` variable
+      - Finally, it will return the variable `random_number`
+- Now, inside of the `initializeApp` function:
+  - Set the variable `the_number` equal to the function call of the `pick_number` function
+- Also inside the `initializeApp` function:
+  - Using jQuery, add a click handler to the button you created in the HTML
   - This click handler will call a function named `make_guess`
-- Add a function to your script tags
+- Declare a new function
   - Name it `make_guess`
   - It takes no parameters
   - It returns no values
-  - Inside:
-    - It will grab the value of the input from above and assign it to a variable named `the_guess`
-    - It then compares the variable `the_guess` to the variable `the_number`
-      - If `the_guess` is higher than `the_number`, it changes the contents of `#response_div` to **"Too High!"**
-      - If `the_guess` is lower than `the_number`, it changes the contents of `#response_div` to **"Too Low!"**
-      - If `the_guess` is the same as `the_number`, it changes the contents of `#response_div` to **"You guessed it!"**
+  - Within the code block:
+    - It will grab the value of the input you created in the HTML and assign it to a variable named `the_guess`
+    - It then compares the value of the variable `the_guess` to the value of the variable `the_number`
+      - If `the_guess` is higher than `the_number`, it changes the text of `#response_div` to **"Too High!"**
+      - If `the_guess` is lower than `the_number`, it changes the text of `#response_div` to **"Too Low!"**
+      - If `the_guess` is the same as `the_number`, it changes the text of `#response_div` to **"You guessed it!"**
 
 ## After Coding Details
 
@@ -133,7 +137,7 @@
 >    1. Here you will locate the branch name (or feature name) you created at the beginning of this version of the project
 >  1. Github.com will let you know if the code can be merged automatically (without needing a manual merge)
 >    1. If the text says something other than "able to merge". <b>Contact an instructor</b>
->    1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by 
+>    1. Sometimes a manual merge is necessary, it just has a couple more steps when completing the request (done by
 instructors at start)
 >  1. Once we have verified #1 - #4 and noted #5, we click the "Create Pull request" button <!-- (#5 in the image above) -->
 
@@ -141,7 +145,7 @@ instructors at start)
 
 #### Step 4.4 Add details into the pull request
 > 1. Give the pull request a title, by default its the name of the last commit (package) message that was saved
->   1. If you set the commit message above you should get <b>v0.1 - [your first & last 
+>   1. If you set the commit message above you should get <b>v0.1 - [your first & last
 name]</b> already pre-populated in the Title field
 >   1. If there is a different title pre-populated, change the title to match the correct format:
 >      1. <b>v0.1 - [your first and last name]</b>
