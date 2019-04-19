@@ -11,13 +11,13 @@
 ##### 3. Clone This Repo
 >1. **After** Forking
 1. In your terminal verify you are in the proper directory
-  1. You should be in your `lfz` directory
-  1. To check your directory type `pwd` then press <kbd>Enter </kbd>
-  1. You should see something along the lines of:
-  1. `~/Desktop/lfz`
-  1. If you are not in the proper directory navigate to the `lfz` folder, if you're not sure how, contact an instructor
-1. Enter the following command into the terminal to clone the `Guess` repo
-  1. `git clone https://github.com/[Your User Name]/guess.git`
+2. You should be in your `lfz` directory
+3. To check your directory type `pwd` then press <kbd>Enter </kbd>
+4. You should see something along the lines of:
+5. `~/Desktop/lfz`
+6. If you are not in the proper directory navigate to the `lfz` folder, if you're not sure how, contact an instructor
+7. Enter the following command into the terminal to clone the `Guess` repo
+8. `git clone https://github.com/[Your User Name]/guess.git`
 
 ##### 4. Navigate to guess
 
@@ -62,12 +62,12 @@
 - In the included main.js file, note the `$(document).ready()` expression at the top of the page.
   - This is a jQuery function which calls a function of your choice once the HTML has loaded.
   - It is currently configured to call a function named `initializeApp` which will in turn call a function you will create called `pick_number`
-- Now, declare a variable called `the_number`, and set its value to `null`
+- Now, declare a variable in the global scope called `the_number`, and set its value to `null`
 - Next, declare a function called `pick_number`
     - It takes no parameters
     - It returns a number
-    - Within the code block:
-      - It will declare a variable, called `random_number`
+    - Within the code block of the `pick_number` function:
+      - It should declare a variable, called `random_number`
       - It will generate a random number between 1 and 10, and then assign that random number to the `random_number` variable
       - Finally, it will return the variable `random_number`
 - Now, inside of the `initializeApp` function:
