@@ -80,3 +80,15 @@ You are now ready to start on the first challenge!
        - e.g. `git push origin skeleton`
 
 - Finally, you will want to create a pull request. This will merge the code from your newly **completed** feature branch into your `master` branch.
+
+  1. Navigate to <kbd>New Pull Request</kbd>:
+  ![Navigate to pull requests](tutorial/images/navigate-to-pull-request.gif)
+  2. Compare changes to merge: 
+  ![Compare changes to merge](/tutorial/images/compare-changes.gif)
+  3. Create a new pull request:
+  ![Create new pull request](tutorial/images/create-pull-request.gif)
+  4. Merge pull request:
+  ![Merge pull request](tutorial/images/merge-pull-request.gif)
+  5. Update master with the new changes:
+  ![Update master](tutorial/images/pull-new-changes.gif)
+  6. Go back to **Before each challenge**, if you're still working through the exercise.
