@@ -154,3 +154,21 @@ name]</b> already pre-populated in the Title field
 > 1. Click on "Create pull Request"
 
 <!-- > <a href="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" target="_blank"><img src="https://github.com/Learning-Fuze/prototypes/blob/assets/assets/example/5.jpg?raw=true" width="800" /></a> -->
+=======
+Before starting on this exercise, you will need to **fork** and then **clone** this repository into your `lfz` folder on your current development environment.
+
+1. Fork this repository from LearningFuze
+    - Click on the <kbd>**Fork**</kbd> button at the top right of the page.
+    - Select your Github user name to complete the fork
+
+2. Clone this repository to your development environment
+    - In your terminal, navigate to the location of your `lfz` folder
+    - `cd ~/lfz` or `cd ~/Desktop/lfz`
+    - `git clone https://github.com/[Your User Name]/guess.git`
+
+3. Navigate into the `guess` directory
+    - `cd guess`
+    - You are now ready to get started!
+    - If you are not in the proper directory, navigate to the `lfz` folder, if you're not sure how, contact an instructor.
+
+
