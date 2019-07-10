@@ -1,0 +1,25 @@
+body {
+   height: 75vh;
+   width: 75vw;
+   background-image: url("images/newt-case.jpg");
+   background-repeat: no-repeat;
+   background-position: top;
+   background-color: goldenrod;
+   margin-left: 20%;
+}
+
+h1 {
+   color: wheat;
+}
+
+#guess_input {
+   height: 20px;
+}
+
+div {
+   color: wheat;
+}
+
+button {
+
+}
