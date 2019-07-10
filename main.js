@@ -16,12 +16,15 @@ function pick_number(){
 
 function make_guess(){
    var the_guess = $("#guess_input").val();
-   if(the_guess > the_number){
+   var parseNum = parseInt(the_guess);
+   if(parseNum > the_number){
       $("#response_div").text("Too High!");
-   } else if(the_guess < the_number){
+   } else if(parseNum < the_number){
       $("#response_div").text("Too Low!");
-   } else if(the_guess == the_number){
+   } else if(parseNum === the_number){
       $("#response_div").text("You guessed it!");
-   }
-   return the_guess;
+   } else if(!parseNum){
+      $("#response_div").text("Please choose a valid number.");
+}
+   return parseNum;
 }
