@@ -43,7 +43,6 @@ function getScore(){
       dataType: 'json',
       success: function(response){
         console.log(response);
-        var sortedResponse = response.sort((a, b) => parseInt(a) - parseInt(b));
         for(var scoreIndex = 0; scoreIndex < sortedResponse.length; scoreIndex++){
          var scoreList = $("<div>");
          scoreList.text("name: " + sortedResponse[scoreIndex].name + ", score: " + sortedResponse[scoreIndex].score);
