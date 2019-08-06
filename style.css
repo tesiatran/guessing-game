@@ -1,4 +1,4 @@
-body {
+body{
    height: 75vh;
    width: 75vw;
    background-image: url("images/newt-case.jpg");
@@ -8,18 +8,18 @@ body {
    margin-left: 20%;
 }
 
-h1 {
+h1{
    color: wheat;
 }
 
-#guess_input {
+#guess_input{
    height: 20px;
 }
 
-div {
+div{
    color: wheat;
 }
 
-button {
-
+.high_scores{
+   margin: 5px;
 }
